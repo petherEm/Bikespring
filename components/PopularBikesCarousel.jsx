@@ -8,7 +8,6 @@ import "swiper/css/pagination";
 import { Pagination } from "swiper/modules";
 
 const PopularBikesCarousel = ({ bikes }) => {
-  console.log(bikes);
   return (
     <Swiper
       slidesPerView={1}

@@ -53,8 +53,14 @@ const Footer = () => {
       </div>
 
       {/* copyright */}
-      <div className="py-6 border-t border-white/5 text-white/60">
-        Copyright &copy; 2024 BikeSpring. All rights reserved.
+      <div className="py-6 border-t border-white/5 text-white/60 flex flex-col md:flex-row justify-around items-center">
+        <div>Copyright &copy; 2024 BikeSpring. All rights reserved.</div>
+        <div>
+          Devloped by{" "}
+          <Link href="https://vabank.dev" target="_blank">
+            vabank.dev
+          </Link>
+        </div>
       </div>
     </footer>
   );
