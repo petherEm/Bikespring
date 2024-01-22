@@ -8,7 +8,7 @@ import {
 } from "@/components/ui/sheet";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { useShoppingCart } from "use-shopping-cart";
-import CheckoutBtn from "./CheckoutBtn";
+import CheckOutBtn from "./CheckOutBtn";
 
 const CartSidebar = () => {
   const {
@@ -46,7 +46,7 @@ const CartSidebar = () => {
               <div className="uppercase mb-5">Total</div>
               <div>${totalPrice}</div>
             </div>
-            <CheckoutBtn />
+            <CheckOutBtn />
           </div>
         )}
       </SheetContent>

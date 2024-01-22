@@ -1,6 +1,6 @@
 import { useShoppingCart } from "use-shopping-cart";
 
-const CheckoutBtn = () => {
+const CheckOutBtn = () => {
   const handleCheckout = async () => {
     try {
       const res = await redirectToCheckout();
@@ -19,4 +19,4 @@ const CheckoutBtn = () => {
   );
 };
 
-export default CheckoutBtn;
+export default CheckOutBtn;
